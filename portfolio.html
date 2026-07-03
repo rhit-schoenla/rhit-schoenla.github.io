@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Yanone+Kaffeesatz:wght@300;400&display=swap"
@@ -13,19 +13,18 @@
 
     <title>Lily Schoenewolff Art</title>
 
-    <!-- import the webpage's stylesheet -->
+    <!-- FIXED: no leading slash -->
     <link rel="stylesheet" href="style.css" />
-
-    <!-- import the webpage's javascript file -->
     <script src="script.js" defer></script>
   </head>
+
   <body>
     <div id="header">
-      <!-- <img
+      <img
         class="anchor"
         src="https://cdn.glitch.com/7bbc40fe-26fc-4915-bdd7-3d59649d173d%2FUntitled_Artwork%205.jpg?v=1618888259938"
-      /> -->
-
+        alt="Header artwork"
+      />
       <h1>Lily Schoenewolff</h1>
     </div>
 
@@ -38,190 +37,132 @@
         </div>
       </ul>
     </nav>
+
     <div class="img">
-      <h3 class="recents">
-        Pet Portraits and Projects
-      </h3>
-      <h2>
-        (click to see close-up)
-      </h2>
+      <h3 class="recents">Pet Portraits and Projects</h3>
+      <h2>(click to see close-up)</h2>
+
+      <!-- GLITCH IMAGES (unchanged) -->
       <a href="portrait.html">
-        <!-- <img
-          id="portrait"
-          src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_2338.jpg?v=1723487862197"
-        />
-        <a href="myboys.html">
-        <img
-          id="myboys"
-          src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_0099%20(1).jpg?v=1723488749151"
-        />
-        <a href="flamingos.html">
-        <img
-          id="flamingos"
-          src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_0078.jpg?v=1723487855690"
-        />
-          <a href="pleinair.html">
-        <img
-          id="pleinair"
-          src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_0333.jpg?v=1723487868027"
-        />
+        <img id="portrait" src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_2338.jpg?v=1723487862197" />
       </a>
-        <a href="words2birds.html">
-        <img
-          id="words2birds"
-          src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_2860%20(1).jpg?v=1723487872822"
-        />
+
+      <a href="myboys.html">
+        <img id="myboys" src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_0099%20(1).jpg?v=1723488749151" />
       </a>
+
+      <a href="flamingos.html">
+        <img id="flamingos" src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_0078.jpg?v=1723487855690" />
+      </a>
+
+      <a href="pleinair.html">
+        <img id="pleinair" src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_0333.jpg?v=1723487868027" />
+      </a>
+
+      <a href="words2birds.html">
+        <img id="words2birds" src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_2860%20(1).jpg?v=1723487872822" />
+      </a>
+
       <a href="rollin.html">
-        <img
-          id="rollin"
-          src="https://cdn.glitch.com/7bbc40fe-26fc-4915-bdd7-3d59649d173d%2FSenior%20Piece%202021.jpg?v=1618868492307"
-        />
+        <img id="rollin" src="https://cdn.glitch.com/7bbc40fe-26fc-4915-bdd7-3d59649d173d%2FSenior%20Piece%202021.jpg?v=1618868492307" />
       </a>
+
       <a href="float.html">
-        <img
-          id="float"
-          src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_6711.jpg?v=1723488741256"
-        />
-      </a> -->
+        <img id="float" src="https://cdn.glitch.global/5c0421c6-5de0-412f-972e-2eb037123217/IMG_6711.jpg?v=1723488741256" />
+      </a>
+
+      <!-- LOCAL IMAGES (cleaned assumptions: lowercase + underscores style) -->
+
       <a href="lucy.html">
-        <img
-          id="lucy"
-          src="images/Lucy_and_Falcon.JPG" alt="Lucy and Falcon portrait"
-        />
+        <img id="lucy" src="images/lucy_and_falcon.jpg" alt="Lucy and Falcon portrait" />
       </a>
+
       <a href="lanie.html">
-        <img
-          id="lanie"
-          src="images/Lanie.jpg" alt="Lainie portrait"
-        />
+        <img id="lanie" src="images/lanie.jpg" alt="Lanie portrait" />
       </a>
-      <!-- <a href="pup.html">
-        <img
-          id="pup"
-          src="https://cdn.glitch.com/7bbc40fe-26fc-4915-bdd7-3d59649d173d%2FCharlie.JPG?v=1618868511707"
-        />
-      </a> -->
+
+      <a href="pup.html">
+        <img id="pup" src="images/charlie.jpg" alt="Charlie portrait" />
+      </a>
+
       <a href="bella.html">
-        <img
-          id="bella"
-          src="images/Bella.JPG" alt="Bella portrait"
-        />
+        <img id="bella" src="images/bella.jpg" alt="Bella portrait" />
       </a>
 
       <a href="loki.html">
-        <img
-          id="loki"
-          src="images/Loki.jpg" alt="Loki portrait"
-        />
+        <img id="loki" src="images/loki.jpg" alt="Loki portrait" />
       </a>
+
       <a href="maverick.html">
-        <img
-          id="maverick"
-          src="images/Maverick.JPG" alt="Maverick portrait"
-        />
+        <img id="maverick" src="images/maverick.jpg" alt="Maverick portrait" />
       </a>
+
       <a href="nash.html">
-        <img
-          id="nash"
-          src="images/Nash.jpg" alt="Nash portrait"
-        />
+        <img id="nash" src="images/nash.jpg" alt="Nash portrait" />
       </a>
+
       <a href="early.html">
-        <img
-          id="early"
-          src="images/Early.JPG" alt="Early portrait"
-        />
+        <img id="early" src="images/early.jpg" alt="Early portrait" />
       </a>
+
       <a href="charlie.html">
-        <img
-          id="charlie"
-          src="images/Charlie.JPG" alt="Charlie portrait"
-        />
+        <img id="charlie" src="images/charlie.jpg" alt="Charlie portrait" />
       </a>
+
       <a href="dan.html">
-        <img
-          id="dan"
-          src="images/Handsome_Dan.JPEG" alt="Dan portrait"
-        />
+        <img id="dan" src="images/handsome_dan.jpg" alt="Dan portrait" />
       </a>
+
       <a href="tyson.html">
-        <img
-          id="tyson"
-          src="images/Tyson.JPG" alt="Tyson portrait"
-        />
+        <img id="tyson" src="images/tyson.jpg" alt="Tyson portrait" />
       </a>
+
       <a href="lab.html">
-        <img
-          id="lab"
-          src="images/Golden_retriever.JPG" alt="Lab portrait"
-        />
+        <img id="lab" src="images/golden_retriever.jpg" alt="Golden retriever portrait" />
       </a>
+
       <a href="valentine.html">
-        <img
-          id="valentine"
-          src="images/IMG_0533.JPG" alt="Valentine portrait"
-        />
+        <img id="valentine" src="images/valentine.jpg" alt="Valentine portrait" />
       </a>
+
       <a href="thor.html">
-        <img
-          id="thor"
-          src="images/Thor_and_Loki.jpg" alt="Thor and Loki portrait"
-        />
+        <img id="thor" src="images/thor_and_loki.jpg" alt="Thor and Loki portrait" />
       </a>
+
       <a href="roxy.html">
-        <img
-          id="roxy"
-          src="images/Roxy.JPG" alt="Roxy portrait"
-        />
+        <img id="roxy" src="images/roxy.jpg" alt="Roxy portrait" />
       </a>
+
       <a href="spooks.html">
-        <img
-          id="spooks"
-          src="images/Wicked_Lucky.jpg" alt="Spooks portrait"
-        />
+        <img id="spooks" src="images/wicked_lucky.jpg" alt="Spooks portrait" />
       </a>
+
       <a href="triplets.html">
-        <img
-          id="triplets"
-          src="images/Cat_Trio.JPG" alt="Trio portrait"
-        />
+        <img id="triplets" src="images/cat_trio.jpg" alt="Cat trio portrait" />
       </a>
+
       <a href="marley.html">
-        <img
-          id="marley"
-          src="images/IMG_8918.jpg" alt="Marley portrait"
-        />
+        <img id="marley" src="images/marley.jpg" alt="Marley portrait" />
       </a>
+
       <a href="kingsly.html">
-        <img
-          id="kingsly"
-          src="images/Kingsly.jpg" alt="Kingsly portrait"
-        />
+        <img id="kingsly" src="images/kingsly.jpg" alt="Kingsly portrait" />
       </a>
+
       <a href="river.html">
-        <img
-          id="river"
-          src="images/River.JPEG" alt="River portrait"
-        />
+        <img id="river" src="images/river.jpg" alt="River portrait" />
       </a>
+
       <a href="king.html">
-        <img
-          id="king"
-          src="images/Kingsly_in_chair.JPG" alt="Kingsly portrait"
-        />
+        <img id="king" src="images/kingsly_in_chair.jpg" alt="Kingsly in chair" />
       </a>
+
       <a href="pool.html">
-        <img
-          id="pool"
-          src="images/Charlie_Swimming.JPEG" alt="Charlie portrait"
-        />
+        <img id="pool" src="images/charlie_swimming.jpg" alt="Charlie swimming" />
       </a>
+
       <a href="daisy.html">
-        <img
-          id="daisy"
-          src="images/Daisy_drawing.JPG" alt="Daisy portrait"
-        />
+        <img id="daisy" src="images/daisy_drawing.jpg" alt="Daisy drawing" />
       </a>
     </div>
   </body>
