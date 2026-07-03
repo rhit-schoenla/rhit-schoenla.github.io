@@ -1,0 +1,640 @@
+/* CSS files add styling rules to your content */
+
+body {
+  color: grey;
+  text-align: center;
+  margin: 0px;
+  background-color: white;
+}
+p {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+h1 {
+  color: #FFDCDB;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+  margin: 0.25em;
+  display: inline;
+  position: relative;
+  bottom: 15px;
+}
+h2 {
+  position: relative;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 15px;
+  margin: 10px;
+  top: 5px;
+}
+h3 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+h4 {
+  position: relative;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 27px;
+  margin: 10px;
+  top: 5px;
+  text-decoration: underline;
+}
+h5 {
+  position: relative;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 22px;
+  margin: 10px;
+  top: 5px;
+  text-align: left;
+}
+
+input {
+  width: 550px;
+  padding: 12px 20px;
+  margin: 10px 30px;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+    background-color: white;
+}
+select {
+  width: 550px;
+  padding: 12px 20px;
+  border: none;
+  margin: 10px 30px;
+  border-radius: 4px;
+  background-color: white;
+  border: 2px solid grey;
+   max-height: 60px;
+}
+form input{
+  max-height: 60px;
+}
+
+label{
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#text{
+   margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.formbuilder-radio{
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  height: 27px;
+}
+.radio-group{
+   text-align: left;
+  font-size: 17px;
+  
+}
+.hidlabel{
+  position: relative;
+  padding-top: 10px;
+}
+.other-val{
+  width: 400px;
+}
+input #radio-group-1619488096787-other-value{
+  width: 70px;
+}
+#radio-group-1619488096787-other{
+  max-width: 50px;
+}
+#radio-group-1619488096787-{
+  width: 50px;
+}
+#radio-group-1619488096787-0{
+  width: 50px;
+}
+#radio-group-1619488096787-1{
+  width: 50px;
+}
+#radio-group-1619488096787-2{
+  width: 50px;
+}
+#radio-group-1619488096787-3{
+  width: 50px;
+}
+
+.tooltip{
+   visibility: visible;
+  position: relative;
+  display: inline-block;
+text-align: right;}
+
+/* Tooltip text */
+.tooltiptext{
+  visibility: hidden;
+  width: 200px;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 15px;
+  
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+.form {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+
+.flex {
+  border: solid;
+  border-size: 3px;
+  border-color: grey;
+  line-height: 20px;
+  bottom: 500px;
+}
+.backg {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.Acc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.flexy {
+  display:flex;
+  flex-direction: row;
+  line-height: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 10px;
+  max-height: 250px;
+ 
+}
+.flex-cost{
+  display:flex;
+  border: solid;
+  border-size: 3px;
+  border-color: grey;
+  line-height: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 15px;
+  max-height: 250px;
+  flex-direction: column;
+}
+.flexx{
+   border: solid;
+  border-size: 3px;
+  border-color: grey;
+  line-height: 17px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 15px;
+  max-height: 250px;
+  margin-left: 30px;
+}
+.details {
+  margin: 20px;
+  margin-top: 25px;
+}
+.cost {
+  margin: 20px;
+  font-size: 17px;
+  text-align: left;
+}
+p.cost{
+  margin-top: 10px;
+  line-height: 25px;
+     font-size: 18px;
+}
+.size {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  position: relative;
+}
+.materials {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  position: relative;
+  
+  
+}
+.text {
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-align: left;
+  letter-spacing: 0.75px;
+}
+.contact {
+  margin: 10px;
+  margin-top: 20px;
+}
+#header {
+  max-height: 125px;
+  display: inline;
+}
+.anchor {
+  display: inline;
+  color: white;
+  margin: 0px;
+  border: solid;
+  size: 3px;
+  max-height: 75px;
+  position: relative;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: 147px;
+  margin-right: 147px;
+}
+.me {
+  position: relative;
+  max-height: 400px;
+  padding: 10px;
+  border: solid;
+  border-size: 3px;
+  border-color: grey;
+}
+#rollin {
+  position: relative;
+  max-height: 55%;
+}
+#rover {
+  position: relative;
+  max-height: 55%;
+}
+#portrait {
+  position: relative;
+  max-height: 55%;
+}
+#toothless {
+  position: relative;
+  max-height: 55%;
+}
+#words2birds {
+  position: relative;
+  max-height: 55%;
+}
+#flamingos {
+  position: relative;
+  max-height: 55%;
+}
+#pleinair {
+  position: relative;
+  max-height: 55%;
+}
+#float {
+  position: relative;
+  max-height: 55%;
+}
+#myboys {
+  position: relative;
+  max-height: 55%;
+}
+#lucy {
+  position: relative;
+  max-height: 55%;
+}
+#charlie {
+  position: relative;
+  max-height: 55%;
+}
+#lanie {
+  position: relative;
+  max-height: 55%;
+}
+#pup {
+  position: relative;
+  max-height: 55%;
+}
+#bella {
+  position: relative;
+  max-height: 55%;
+}
+#triplets {
+  position: relative;
+  max-height: 55%;
+}
+#loki {
+  position: relative;
+  max-height: 55%;
+}
+#maverick {
+  position: relative;
+  max-height: 55%;
+}
+#nash {
+  position: relative;
+  max-height: 55%;
+}
+#early {
+  position: relative;
+  max-height: 55%;
+}
+#thor {
+  position: relative;
+  max-height: 57%;
+}
+#lab {
+  position: relative;
+  max-height: 57%;
+}
+#valentine {
+  position: relative;
+  max-height: 57%;
+}
+#dan {
+  position: relative;
+  max-height: 55%;
+}
+#marley {
+  position: relative;
+  max-height: 55%;
+}
+#kingsly {
+  position: relative;
+  max-height: 56%;
+}
+#river {
+  position: relative;
+  max-height: 56%;
+}
+#roxy {
+  position: relative;
+  max-height: 57%;
+}
+#tyson {
+  position: relative;
+  max-height: 55%;
+}
+#spooks {
+  position: relative;
+  max-height: 55%;
+}
+#king {
+  position: relative;
+  max-height: 56%;
+}
+#pool {
+  position: relative;
+  max-height: 56%;
+}
+#daisy {
+  position: relative;
+  max-height: 56%;
+}
+
+.img {
+  background-color: #F1F1F1;
+  background-repeat: repeat;
+  background-size: cover;
+  resize: vertical;
+  overflow: auto;
+  height: 600px;
+  position: relative;
+}
+.images {
+  background-color: #F1F1F1;
+  height: 600px;
+  position: relative;
+  resize: vertical;
+  overflow: auto;
+}
+.recents {
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  color: #D4AF37;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  border: solid #FFE4E3;
+  height: 40px;
+  overflow: hidden;
+  margin: 0px;
+  padding-left: 0px;
+  background-color: white;
+}
+li {
+  display: inline;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#home {
+  text-decoration: underline grey;
+}
+#port {
+  text-decoration: underline grey;
+}
+#order {
+  text-decoration: underline grey;
+}
+
+li a {
+  display: inline;
+  text-shadow: 2px 2px 1px #FFE4E3;
+  color: grey;
+  text-decoration: none;
+  font-size: 1.75em;
+  font-family: "Dancing Script", cursive;
+  top: 20px;
+  bottom: 3px;
+  margin-top: 10px;
+  text-align: center;
+}
+#Home-Nav {
+  margin-rigtht: 790px;
+  top: 100px;
+}
+#Port-Nav {
+  margin-rigtht: 790px;
+}
+#Order-Nav {
+  margin-rigtht: 790px;
+}
+
+.bella- {
+  position: relative;
+  max-height: 100%;
+}
+.toothless- {
+  position: relative;
+  max-height: 100%;
+}
+.float- {
+  position: relative;
+  max-height: 100%;
+}
+.myboys- {
+  position: relative;
+  max-height: 100%;
+}
+.rover- {
+  position: relative;
+  max-height: 100%;
+}
+.flamingos- {
+  position: relative;
+  max-height: 100%;
+}
+.pleinair- {
+  position: relative;
+  max-height: 100%;
+}
+.charlie- {
+  position: relative;
+  max-height: 100%;
+}
+.daisy- {
+  position: relative;
+  max-height: 100%;
+}
+.dan- {
+  position: relative;
+  max-height: 100%;
+}
+.early- {
+  position: relative;
+  max-height: 100%;
+}
+.king- {
+  position: relative;
+  max-height: 100%;
+}
+.kingsly- {
+  position: relative;
+  max-height: 100%;
+}
+.lab- {
+  position: relative;
+  max-height: 100%;
+}
+.lanie- {
+  position: relative;
+  max-height: 100%;
+}
+.loki- {
+  position: relative;
+  max-height: 100%;
+}
+.lucy- {
+  position: relative;
+  max-height: 90%;
+}
+.marley- {
+  position: relative;
+  max-height: 100%;
+}
+.maverick- {
+  position: relative;
+  max-height: 100%;
+}
+.nash- {
+  position: relative;
+  max-height: 100%;
+}
+.pool- {
+  position: relative;
+  max-height: 100%;
+}
+.pup- {
+  position: relative;
+  max-height: 100%;
+}
+.river- {
+  position: relative;
+  max-height: 100%;
+}
+.rollin- {
+  position: relative;
+  max-height: 100%;
+}
+.roxy- {
+  position: relative;
+  max-height: 100%;
+}
+.spooks- {
+  position: relative;
+  max-height: 100%;
+}
+.thor- {
+  position: relative;
+  max-height: 100%;
+}
+.triplets- {
+  position: relative;
+  max-height: 70%;
+}
+.tyson- {
+  position: relative;
+  max-height: 100%;
+}
+.valentine- {
+  position: relative;
+  max-height: 100%;
+}
+.portrait- {
+  position: relative;
+  max-height: 100%;
+}
+.words2birds- {
+  position: relative;
+  max-height: 100%;
+}
+
+.setDataWrap {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#fb-editor {
+
+}
