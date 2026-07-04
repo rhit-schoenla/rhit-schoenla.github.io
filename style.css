@@ -272,8 +272,8 @@ p.cost{
   color: white;
   margin: 0px;
   border: solid;
-  size: 8px;
-  max-height: 130px;
+  size: 5px;
+  max-height: 100px;
   position: relative;
 }
 .flexbox {
