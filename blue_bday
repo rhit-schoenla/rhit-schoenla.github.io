@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Yanone+Kaffeesatz:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Maltese Birthday Portrait</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div id="header">
+      <img
+        class="anchor"
+        src="images/river_lily_logo.png"
+      />
+
+      <h1>Lily DeKruyter</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <div id="Home-Nav">
+          <li><a href="index.html">About</a></li>
+          <li><a id="port" href="portfolio.html">Portfolio</a></li>
+          <li><a href="order.html">Order</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div class="images">
+      <p class="recents">
+        Blue Birthday Maltese
+      </p>
+
+      <a href="portfolio.html"
+        ><img
+          class="bday-"
+          src="images/blue_bday.jpg"
+        />
+        <img
+          class="bella-"
+          src="images/blue_bday_pic.jpg"
+        />
+      </a>
+       <div class="info">
+      <div class="flexx">
+
+          <p class="details">
+            8" x 10"<br /><br />
+            Acrylic Paint<br /><br />
+            On Wooden Floorboard<br />
+          </p>
+        </div>
+    </div>
+    </div>
+   
+  </body>
+</html>
