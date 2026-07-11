@@ -198,7 +198,7 @@ text-align: right;}
   line-height: 20px;
   font-family: "Yanone Kaffeesatz", sans-serif;
   margin: 10px;
-  max-height: 350px;
+  max-height: 400px;
  
 }
 .flex-cost{
@@ -209,7 +209,7 @@ text-align: right;}
   line-height: 20px;
   font-family: "Yanone Kaffeesatz", sans-serif;
   margin: 15px;
-  max-height: 350px;
+  max-height: 400px;
   flex-direction: column;
 }
 .flexx{
@@ -239,7 +239,7 @@ p.cost{
 .size {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+  margin-left: 20px;
   position: relative;
 }
 .materials {
