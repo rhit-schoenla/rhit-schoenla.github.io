@@ -297,6 +297,79 @@ p.cost{
   border-size: 3px;
   border-color: grey;
 }
+#brady {
+  position: relative;
+  max-height: 55%;
+}
+#italy {
+  position: relative;
+  max-height: 55%;
+}
+#bluecat {
+  position: relative;
+  max-height: 55%;
+}
+#flhome {
+  position: relative;
+  max-height: 55%;
+}
+#bulldog {
+  position: relative;
+  max-height: 55%;
+}
+#horse {
+  position: relative;
+  max-height: 55%;
+}
+#hands {
+  position: relative;
+  max-height: 55%;
+}
+#pinkcat {
+  position: relative;
+  max-height: 55%;
+}
+#tinydogs {
+  position: relative;
+  max-height: 55%;
+}
+#sleeping {
+  position: relative;
+  max-height: 55%;
+}
+#yoyo {
+  position: relative;
+  max-height: 55%;
+}
+#blue_bday {
+  position: relative;
+  max-height: 55%;
+}
+#molly {
+  position: relative;
+  max-height: 55%;
+}
+#greyhound {
+  position: relative;
+  max-height: 55%;
+}
+#mihouse {
+  position: relative;
+  max-height: 55%;
+}
+#reggie {
+  position: relative;
+  max-height: 55%;
+}
+#mintcat {
+  position: relative;
+  max-height: 55%;
+}
+#nugget {
+  position: relative;
+  max-height: 55%;
+}
+
 #rollin {
   position: relative;
   max-height: 55%;
@@ -500,6 +573,79 @@ li a {
 }
 #Order-Nav {
   margin-rigtht: 790px;
+}
+
+.brady- {
+  position: relative;
+  max-height: 100%;
+}
+.italy- {
+  position: relative;
+  max-height: 100%;
+}
+.bluecat- {
+  position: relative;
+  max-height: 100%;
+}
+.flhome- {
+  position: relative;
+  max-height: 100%;
+}
+.bulldog- {
+  position: relative;
+  max-height: 100%;
+}
+.horse- {
+  position: relative;
+  max-height: 100%;
+}
+.hands- {
+  position: relative;
+  max-height: 100%;
+}
+.pinkcat- {
+  position: relative;
+  max-height: 100%;
+}
+.tinydogs- {
+  position: relative;
+  max-height: 100%;
+}
+.sleeping- {
+  position: relative;
+  max-height: 100%;
+}
+.yoyo- {
+  position: relative;
+  max-height: 100%;
+}
+.blue_bday- {
+  position: relative;
+  max-height: 100%;
+}
+.molly- {
+  position: relative;
+  max-height: 100%;
+}
+.greyhound- {
+  position: relative;
+  max-height: 100%;
+}
+.mihouse- {
+  position: relative;
+  max-height: 100%;
+}
+.reggie- {
+  position: relative;
+  max-height: 100%;
+}
+.mintcat- {
+  position: relative;
+  max-height: 100%;
+}
+.nugget- {
+  position: relative;
+  max-height: 100%;
 }
 
 .bella- {
