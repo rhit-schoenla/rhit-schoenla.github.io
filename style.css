@@ -210,7 +210,7 @@ text-align: right;}
   font-family: "Yanone Kaffeesatz", sans-serif;
   margin: 15px;
   max-height: 500px;
-  flex-direction: column;
+  
 }
 .flexx{
    border: solid;
