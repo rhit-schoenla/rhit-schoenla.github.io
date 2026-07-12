@@ -217,7 +217,7 @@ text-align: right;}
     font-size: 17px;
 }
 .flexy {
-  line-height: 20px;
+  /* line-height: 20px; */
   font-family: "Yanone Kaffeesatz", sans-serif;
   display: grid;
   grid-template-columns:1fr 1fr;
