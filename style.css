@@ -194,24 +194,24 @@ text-align: right;}
 }
 .pricing-table{
     width:100%;
-    border-collapse:collapse;
-    margin-top:10px;
+    border-collapse: collapse;
+    margin-top:5px;
 }
 
 .pricing-table th,
 .pricing-table td{
-    padding:8px 12px;
-    text-align:left;
+    padding:5px 5px;
+    text-align: left;
     border-bottom:1px solid lightgray;
 }
 
 .pricing-table th{
-    font-size:20px;
-    border-bottom:2px solid gray;
+    font-size: 17px;
+    border-bottom: 2px solid gray;
 }
 
 .pricing-table td{
-    font-size:18px;
+    font-size: 17px;
 }
 .flexy {
   line-height: 20px;
