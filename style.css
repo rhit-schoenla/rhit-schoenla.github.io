@@ -192,6 +192,27 @@ text-align: right;}
   flex-direction: column;
   margin-left: 10px;
 }
+.pricing-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+.pricing-table th,
+.pricing-table td{
+    padding:8px 12px;
+    text-align:left;
+    border-bottom:1px solid lightgray;
+}
+
+.pricing-table th{
+    font-size:20px;
+    border-bottom:2px solid gray;
+}
+
+.pricing-table td{
+    font-size:18px;
+}
 .flexy {
   line-height: 20px;
   font-family: "Yanone Kaffeesatz", sans-serif;
